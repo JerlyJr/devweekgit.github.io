@@ -17,7 +17,8 @@
 .left-section {
     grid-column: span 2;
     height: 100%;
-    background-color: #999999;
+    width: fit-content;
+    background-color:#252729;
 }
 
 .right-section {
@@ -39,10 +40,12 @@
 .profile .profile-image {
     width: 100%;
     border-radius: 100%;
+    outline: #D6DBDF;
+    outline-width: 5px;
 }
 
 .name {
-    color: #D6DBDF;
+    color: darkorange;
     font-size: 30px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -61,6 +64,9 @@
     font-size: 20px;
 }
 
+.contact-info{
+    margin-top: 15px;
+}
 .contact-info ul {
     padding-top: 1.5rem;
 }
@@ -77,6 +83,9 @@
     font-size: 18px;
     color: #eeeeee;
 }
+.skills{
+    margin-top: 15px;
+}
 
 .skills ul {
     padding-top: 1.5rem;
@@ -91,7 +100,8 @@
 }
 
 .right-title {
-    color: #eeeeee;
+    color:darkorange;
+    font-size: 30px;
 }
 
 .gap {
